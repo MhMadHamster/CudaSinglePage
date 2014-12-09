@@ -117,3 +117,32 @@ h1 {
 	font-weight: bold;
 	line-height: 49px;
 }
+
+
+/* Footer */
+
+footer {
+	background-color: #344b8e;
+	border-top: 1px solid #eee;
+}
+
+.social-media {
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.social-media ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.social-media ul li a {
+	padding: 20px 25px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.social-media ul li a:hover {
+	color: #30bae7;
+}
+/* / Footer */
