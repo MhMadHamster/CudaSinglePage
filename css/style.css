@@ -335,6 +335,10 @@ h1 {
 	background-color: rgba(0,0,0,.08);
 }
 
+.portfolio ul li a.current {
+	background-color: #fff;
+}
+
 .categories ul li a:active {
 	background-color: #fff;
 }
