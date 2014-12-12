@@ -291,15 +291,86 @@ h1 {
 
 .skill {
 	text-align: center;
-	line-height: 134px;
+	line-height: 160px;
 	display: block;
 	margin: 25px auto;
 	font-weight: 300;
-	font-size: 40px;
+	font-size: 48px;
 	width: 160px;
 	height: 160px;
-	border: 13px solid #eb7d4b;
 	border-radius: 50%;
+	position: relative;
+	letter-spacing: 20;
+}
+
+.skill > span {
+	font-size: 30px;
+}
+
+.circle {
+	position: relative;
+}
+
+.arc {
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 160px;
+	height: 160px;
+	border-radius: 100%;
+	border: 13px solid;
+	position: absolute;
+	display: block;
+}
+
+.arc_bg {
+	border-color: #DFE8ED;
+}
+
+/* Ninety */
+.arc_start_ninety {
+	border-color:transparent #30bae7 #30bae7 #30bae7;
+	transform: rotate(378deg);
+}
+
+.arc_end_ninety {
+	border-color:transparent #30bae7 #30bae7 #30bae7;
+	transform: rotate(315deg);
+}
+
+/* Seventy-five */
+.arc_start_seventyfive {
+	border-color:transparent #D74680 #D74680 #D74680;
+	transform: rotate(315deg);
+}
+
+.arc_end_seventyfive {
+	border-color:transparent #D74680 #D74680 #D74680;
+	transform: rotate(315deg);
+}
+
+/* Seventy */
+.arc_start_seventy {
+	border-color:transparent transparent #15C7A8 #15C7A8;
+	transform: rotate(294deg);
+}
+
+.arc_end_seventy {
+	border-color:transparent #15C7A8 #15C7A8 transparent;
+	transform: rotate(315deg);
+}
+
+/* Eighty-five */
+.arc_start_eightyfive {
+	border-color:transparent #EB7D4B #EB7D4B #EB7D4B;
+	transform: rotate(357deg);
+}
+
+.arc_end_eightyfive {
+	border-color:transparent #EB7D4B #EB7D4B #EB7D4B;
+	transform: rotate(315deg);
 }
 
 /* Main > Portfolio */
