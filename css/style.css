@@ -232,6 +232,7 @@ h1 {
 .services img {
 	display: block;
 	margin: 25px auto;
+	padding: 25px 0;
 }
 
 /* Main > Team */
