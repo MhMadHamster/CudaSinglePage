@@ -13,6 +13,10 @@ a {
 	text-decoration: none;
 }
 
+a, a:hover, a:focus, a:active {
+	outline: none;
+}
+
 /* Grid */
 
 .container {
