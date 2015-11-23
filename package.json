@@ -1,0 +1,27 @@
+{
+  "name": "cuda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MhMadHamster/CudaSinglePage"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MhMadHamster/CudaSinglePage/issues"
+  },
+  "homepage": "https://github.com/MhMadHamster/CudaSinglePage",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0",
+    "opn": "^3.0.3"
+  }
+}
